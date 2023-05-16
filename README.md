@@ -161,15 +161,15 @@ Go back to IIS, sites -> Default -> osTicket and double click PHP manager
 10b. Click “Enable or disable an extension” and make sure extensions are enabled as shown in image below
 
 <p align="center">
-<img src=https://i.ibb.co/dBLTsc3/20.jpg
+<img src=https://i.ibb.co/XL3m27D/19.jpg
 </p>
 <br />
 <br />
 
-10c. Install the three .dll extensions as shown below
+10c. Make sure extensions are enabled as shown in image below
 
 <p align="center">
-<img src="https://imgur.com/UeF0kNg.png alt="Traffic Examination"/>
+<img src=https://i.ibb.co/dBLTsc3/20.jpg>
 </p>
 <br />
 <br />
@@ -180,7 +180,7 @@ Step 11. After navigating to http://localhost/osTicket/setup/install, rename the
 - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 <p align="center">
-<img src="https://imgur.com/D1ABrGV.png alt="Traffic Examination"/>
+<img src=https://i.ibb.co/7SMfXR8/21.jpg
 </p>
 <br />
 <br />
