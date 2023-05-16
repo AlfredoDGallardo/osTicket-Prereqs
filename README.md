@@ -174,7 +174,7 @@ Go back to IIS, sites -> Default -> osTicket and double click PHP manager
 <br />
 <br />
 
-Step 11. After navigating to http://localhost/osTicket/setup/install, rename the ost-config.php file (see below) and click continue.
+Step 11. In "File Explorer" rename the ost-config.php file (see below) and click continue.
 
 - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
@@ -185,50 +185,62 @@ Step 11. After navigating to http://localhost/osTicket/setup/install, rename the
 <br />
 <br />
 
-Step 12. After changing the ost-config.php file and clicking continue and you should see the following  screen:
+Step 12. After changing the ost-config.php file, navigate to http://localhost/osTicket/setup/install and click continue and you should see the following screen:
 
 <p align="center">
-<img src="https://imgur.com/bklUu4d.png alt="Traffic Examination"/>
+<img src=https://i.ibb.co/wcpXZqP/22.jpg
 </p>
 
-Once the above information is filled in click save changes at the bottom of the screen.
+Once the above information is filled in leave it as is.
 <br />
 <br />
 
-12b. After saving you should see this screen. Click continue at the bottom of the screen.
-
-<p align="center">
-<img src="https://imgur.com/ZLDvqlg.png alt="Traffic Examination"/>
-</p>
-<br />
-<br />
-
-Step 13. Back in osTicket Click the Dashboard tab and you should see the following screen:
+Step 13. From the installation files, install HeidiSQL
 
 <p align="center">
-<img src="https://imgur.com/T7vYSS5.png alt="Traffic Examination"/>
+<img src=https://i.ibb.co/30vDfPr/23.jpg
 </p>
 <br />
 <br />
 
-Step 14. From the installation files install HeidiSQL
-
-- Open Heidi SQL
+13b. Open Heidi SQL
 - Create a new session, root/Password1
 - Connect to the session
-- Create a database called “osTicket”
-- Click Open
+                                 
+<p align="center">
+<img src=https://i.ibb.co/FhgGnjB/24.jpg
+</p>
+<br />
+<br />                 
+                 
+13c. Create a new database and name it "osTicket" 
+                                                 
+<p align="center">
+<img src=https://i.ibb.co/r244NKy/25.jpg
+</p>
+<br />
+<br />  
+                 
+13d. Use the HeidiSQL info to finish entering the information needed in http://localhost/osTicket/setup/install  
+                 
+<p align="center">
+<img src=https://i.ibb.co/z5zZvLP/26.jpg
+</p>
+<br />
+<br />                 
+                                                 
+Step 14. Once all information is entered press Install Now
 
 <p align="center">
-<img src="https://imgur.com/Xwg85Fr.png alt="Traffic Examination"/>
+<img src=https://i.ibb.co/nj3LRhZ/27.jpg
 </p>
 <br />
 <br />
 
-14b. After you click open you should see the following screen:
+14b. After you click you should see the following screen:
 
 <p align="center">
-<img src="https://imgur.com/AlvSYKt.png alt="Traffic Examination"/>
+<img src=https://i.ibb.co/LQdyp80/28.jpg
 </p>
 <br />
 <br />
